@@ -1,0 +1,66 @@
+body {
+    background: url(bg.png) no-repeat ;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+.pl{
+    background-color: khaki;
+    display: flex;
+    align-content: center;
+    
+}
+.img p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+
+}
+
+.img:hover p {
+    opacity: 1;
+ 
+}
+.img:hover img{
+    opacity:0.5;
+}
